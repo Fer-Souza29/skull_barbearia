@@ -1,0 +1,25 @@
+.servicos__conteudo {
+    display: flex;
+    background-color: #1D232A;
+    height: 650px;
+    max-height: 650px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .servicos__conteudo {    
+        flex-direction: column;
+        background:  linear-gradient(rgba(31, 31, 31, 0.5), rgba(29, 29, 29, 0.9)), url(../../img/mobile-services.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+        align-items: center;
+        height: 400px;
+      
+        position: relative; 
+
+    }
+
+}

@@ -1,0 +1,20 @@
+.barbeiros__conteudo {
+    background-color: #2C343A;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .barbeiros__conteudo {
+        background: linear-gradient(rgba(31, 31, 31, 0.5), rgba(29, 29, 29, 0.9)), url(../../img/mobile-barbeiros.jpg);
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+}

@@ -1,0 +1,12 @@
+.barbeiros__descricao {
+    font-size: 1.45rem;
+    padding: 0 10px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px black;
+}
+
+@media screen and (max-width: 768px) {
+    .barbeiros__descricao {
+        font-size: 1.2rem;
+    }
+}

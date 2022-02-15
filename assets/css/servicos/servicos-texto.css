@@ -1,0 +1,10 @@
+.servicos__texto{
+    font-size: 1.40rem;
+    
+}
+@media screen and (max-width: 768px) {
+    .servicos__texto{
+      font-size: 1.0rem;
+    }
+ }
+ 

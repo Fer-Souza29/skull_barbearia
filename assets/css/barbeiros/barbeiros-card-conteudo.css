@@ -1,0 +1,11 @@
+.barbeiros__card__conteudo {
+   
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+   justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}

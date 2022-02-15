@@ -1,0 +1,11 @@
+.contato__texto{
+    font-size: 1.40rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    .contato__texto{
+      font-size: 1.20em;
+    }
+ }
+ 

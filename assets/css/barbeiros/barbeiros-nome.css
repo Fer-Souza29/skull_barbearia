@@ -1,0 +1,12 @@
+.barbeiros__nome{
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-shadow: 3px 3px 3px black;
+    color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+    .barbeiros__nome{
+        font-size: 1.50rem;
+    }
+ }
+ 

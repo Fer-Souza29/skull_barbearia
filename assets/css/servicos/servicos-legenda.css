@@ -1,0 +1,11 @@
+.servicos__legenda{
+    font-weight: bold;
+    font-size: 1.75rem;
+    
+}
+@media screen and (max-width: 768px) {
+    .servicos__legenda{
+        font-size: 1.50rem;
+    }
+ }
+ 

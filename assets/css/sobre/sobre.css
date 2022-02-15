@@ -1,0 +1,21 @@
+.sobre {
+    width: 100%;
+    background-image: url('../../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 53px);
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        height: auto;
+        background-image: none;
+        background-color: #1D232A;
+        padding: 15px 0 15px 0;
+    }
+}
